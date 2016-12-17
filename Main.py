@@ -139,14 +139,6 @@ function initMap() {
     
 }
 
-var interval = setInterval(function(){
-    if (j < queryReturn1.length){
-        converteEndereco(queryReturn1[j][0], queryReturn1[j][1]);
-        j++;
-    }else
-        clearInterval(interval);
-}, 650);
-
 function geocodeAddress(geocoder, resultsMap) {
 
     var Universities = [];"""
